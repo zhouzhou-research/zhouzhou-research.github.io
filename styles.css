@@ -339,6 +339,14 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
+  .hero-grid > :first-child {
+    order: 2;
+  }
+
+  .hero-grid > .profile-card {
+    order: 1;
+  }
+
   .site-nav {
     gap: 1rem;
   }
